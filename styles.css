@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+body {
+    font-family: 'Pirata One', serif;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.frame {
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid #333;
+}
+
+.frame h2 {
+    font-family: 'Pirata One', serif;
+    color: #ff6f61;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.frame p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fffffff1;
+}
+
+.frame a {
+    color: #ff6e61;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.frame a:hover {
+    color: #ff3b2f;
+    text-decoration: underline;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.images img {
+    width: 30%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #333;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 111, 97, 0.4);
+}
